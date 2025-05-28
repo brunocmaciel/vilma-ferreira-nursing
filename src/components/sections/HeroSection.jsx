@@ -19,10 +19,6 @@ const HeroSection = () => {
               Especialista em Laserterapia
             </h2>
 
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-6">
-              Atendimento Domiciliar
-            </h2>
-
             <p className="text-lg md:text-md text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
               "Cuidado profissional e humanizado no conforto do seu lar"
             </p>
