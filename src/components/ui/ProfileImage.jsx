@@ -13,13 +13,11 @@ const ProfileImage = ({
   const [imageLoading, setImageLoading] = useState(true);
 
   const handleImageError = () => {
-    console.log('Erro ao carregar imagem:', src);
     setImageError(true);
     setImageLoading(false);
   };
 
   const handleImageLoad = () => {
-    console.log('Imagem carregada com sucesso:', src);
     setImageLoading(false);
   };
 
