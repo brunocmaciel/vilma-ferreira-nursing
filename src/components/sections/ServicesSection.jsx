@@ -72,12 +72,12 @@ const ServicesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {services.map((service, index) => (
-            <div
+            <article
               key={index}
               className="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-all duration-300 hover:-translate-y-2"
             >
               <div className="p-8">
-                <div className="mb-6">
+                <div className="mb-6" aria-hidden="true">
                   {service.icon}
                 </div>
                 
@@ -93,7 +93,7 @@ const ServicesSection = () => {
                   <p className="text-sm font-semibold text-primary mb-3">
                     Inclui:
                   </p>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2" role="list">
                     {service.features.map((feature, featureIndex) => (
                       <li
                         key={featureIndex}
@@ -105,7 +105,7 @@ const ServicesSection = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

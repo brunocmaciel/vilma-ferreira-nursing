@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../ProfileImage';
+import ProfileImage from '../ui/ProfileImage';
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
@@ -25,7 +25,7 @@ const HeroSection = () => {
 
             <button
               onClick={handleWhatsAppClick}
-              className="inline-flex items-center px-6 py-3 text-lg font-medium rounded-lg bg-[#25D366] hover:bg-[#128C7E] text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="inline-flex items-center px-6 py-3 text-lg font-medium rounded-lg bg-primary hover:bg-[#128C7E] text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <svg
                 className="w-6 h-6 mr-2"
